@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\dist\css\AdminLTE.css" />
+    <None Include="wwwroot\dist\css\adminlte.css.map" />
+    <None Include="wwwroot\dist\css\AdminLTE.min.css" />
+    <None Include="wwwroot\dist\css\adminlte.min.css.map" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-bootstrap-social.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-bootstrap-social.min.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-fullcalendar.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-fullcalendar.min.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-select2.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-select2.min.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-without-plugins.css" />
+    <None Include="wwwroot\dist\css\alt\AdminLTE-without-plugins.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-black-light.css" />
+    <None Include="wwwroot\dist\css\skins\skin-black-light.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-black.css" />
+    <None Include="wwwroot\dist\css\skins\skin-black.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-blue-light.css" />
+    <None Include="wwwroot\dist\css\skins\skin-blue-light.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-blue.css" />
+    <None Include="wwwroot\dist\css\skins\skin-blue.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-green-light.css" />
+    <None Include="wwwroot\dist\css\skins\skin-green-light.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-green.css" />
+    <None Include="wwwroot\dist\css\skins\skin-green.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-purple-light.css" />
+    <None Include="wwwroot\dist\css\skins\skin-purple-light.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-purple.css" />
+    <None Include="wwwroot\dist\css\skins\skin-purple.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-red-light.css" />
+    <None Include="wwwroot\dist\css\skins\skin-red-light.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-red.css" />
+    <None Include="wwwroot\dist\css\skins\skin-red.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-yellow-light.css" />
+    <None Include="wwwroot\dist\css\skins\skin-yellow-light.min.css" />
+    <None Include="wwwroot\dist\css\skins\skin-yellow.css" />
+    <None Include="wwwroot\dist\css\skins\skin-yellow.min.css" />
+    <None Include="wwwroot\dist\css\skins\_all-skins.css" />
+    <None Include="wwwroot\dist\css\skins\_all-skins.min.css" />
+    <None Include="wwwroot\dist\img\avatar.png" />
+    <None Include="wwwroot\dist\img\avatar04.png" />
+    <None Include="wwwroot\dist\img\avatar2.png" />
+    <None Include="wwwroot\dist\img\avatar3.png" />
+    <None Include="wwwroot\dist\img\avatar5.png" />
+    <None Include="wwwroot\dist\img\credit\american-express.png" />
+    <None Include="wwwroot\dist\img\credit\cirrus.png" />
+    <None Include="wwwroot\dist\img\credit\mastercard.png" />
+    <None Include="wwwroot\dist\img\credit\mestro.png" />
+    <None Include="wwwroot\dist\img\credit\paypal.png" />
+    <None Include="wwwroot\dist\img\credit\paypal2.png" />
+    <None Include="wwwroot\dist\img\credit\visa.png" />
+    <None Include="wwwroot\dist\img\default-50x50.gif" />
+    <None Include="wwwroot\dist\img\icons.png" />
+    <None Include="wwwroot\dist\img\photo1.png" />
+    <None Include="wwwroot\dist\img\photo2.png" />
+    <None Include="wwwroot\dist\img\photo3.jpg" />
+    <None Include="wwwroot\dist\img\photo4.jpg" />
+    <None Include="wwwroot\dist\img\user1-128x128.jpg" />
+    <None Include="wwwroot\dist\img\user2-160x160.jpg" />
+    <None Include="wwwroot\dist\img\user3-128x128.jpg" />
+    <None Include="wwwroot\dist\img\user4-128x128.jpg" />
+    <None Include="wwwroot\dist\img\user5-128x128.jpg" />
+    <None Include="wwwroot\dist\img\user6-128x128.jpg" />
+    <None Include="wwwroot\dist\img\user7-128x128.jpg" />
+    <None Include="wwwroot\dist\img\user8-128x128.jpg" />
+    <None Include="wwwroot\dist\js\adminlte.js" />
+    <None Include="wwwroot\dist\js\adminlte.min.js" />
+    <None Include="wwwroot\dist\js\demo.js" />
+    <None Include="wwwroot\dist\js\pages\dashboard.js" />
+    <None Include="wwwroot\dist\js\pages\dashboard2.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.6.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
